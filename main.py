@@ -46,11 +46,11 @@ Label(root, text="Book ID:", bg="white").grid(row=0, column=0, padx=7, pady=7)
 book_id_entry = Entry(root)
 book_id_entry.grid(row=0, column=1, padx=7, pady=7)
 
-Label(root, text="Title:", bg="white").grid(row=1, column=0, padx=7, pady=7)
+Label(root, text="Book Title:", bg="white").grid(row=1, column=0, padx=7, pady=7)
 book_title_entry = Entry(root)
 book_title_entry.grid(row=1, column=1, padx=7, pady=7)
 
-Label(root, text="Author:", bg="white").grid(row=2, column=0, padx=5, pady=5)
+Label(root, text="Book Author:", bg="white").grid(row=2, column=0, padx=5, pady=5)
 book_author_entry = Entry(root)
 book_author_entry.grid(row=2, column=1, padx=5, pady=5)
 
